@@ -28,6 +28,7 @@ Aplicación de estudio para el examen de residencia (R1) en un solo archivo HTML
 - Donde no había imagen real adecuada, la pregunta describe los hallazgos en el texto.
 
 ### Banco de preguntas ampliado
+- **1003 casos clínicos, al menos 100 por especialidad**: cirugía general, cirugía plástica, ginecología y obstetricia, medicina interna, ortopedia, neurocirugía, toxicología, pediatría, oftalmología y dermatología.
 - Casos clínicos originales con explicación paso a paso, por qué no las otras opciones, perla para memorizar, tarjeta de repaso y fuente.
 - Quienes ya usaban la app reciben las preguntas nuevas automáticamente, sin perder su historial.
 
