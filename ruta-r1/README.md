@@ -17,6 +17,20 @@ Aplicación de estudio para el examen de residencia (R1) en un solo archivo HTML
 - **"Ver en Atlas 3D"** desde la explicación de preguntas con imagen (ECG, TAC, radiografías, fondo de ojo, piel).
 - Importación de modelos propios **OBJ, STL y GLB/GLTF** (se procesan en el dispositivo).
 
+### Arena: salas sin Firebase (como en Lunami)
+- Crea una sala y comparte el **código de 6 caracteres**; sin cuentas ni configuración.
+- Dos caminos a la vez: **conexión directa** (WebRTC con PeerJS) y **relevo MQTT público cifrado** (AES-GCM con clave derivada del código; EMQX, HiveMQ y Mosquitto) cuando el directo no conecta.
+- El anfitrión es la fuente de verdad: chat de espera, cronómetro sincronizado, respuestas, resultados y reanudación si alguien recarga la página.
+- Firebase queda solo como opción avanzada.
+
+### Imágenes clínicas reales
+- Las ilustraciones simuladas se reemplazaron por **imágenes reales con licencia libre** (Wikimedia Commons): ECG de IAM inferior y de hiperpotasemia, TAC de hematoma epidural y subdural, neumoperitoneo, fractura de Colles, signo del campanario, oclusión de la arteria central de la retina y melanoma. Cada imagen muestra su autor y licencia.
+- Donde no había imagen real adecuada, la pregunta describe los hallazgos en el texto.
+
+### Banco de preguntas ampliado
+- Casos clínicos originales con explicación paso a paso, por qué no las otras opciones, perla para memorizar, tarjeta de repaso y fuente.
+- Quienes ya usaban la app reciben las preguntas nuevas automáticamente, sin perder su historial.
+
 ### Simulación clínica
 - **ECG de 12 derivaciones realistas** (modelo fisiológico por derivación, papel milimetrado, tira de ritmo): IAM inferior con cambios recíprocos, hiperpotasemia con T picudas y cardiotoxicidad por tricíclicos con QRS ancho.
 - **Monitor de signos vitales en vivo** en el Hospital virtual: ECG (II) con la morfología del caso, pletismografía, respiración y sonido opcional.
@@ -26,6 +40,8 @@ Aplicación de estudio para el examen de residencia (R1) en un solo archivo HTML
 - WebGL 2 y un navegador con `DecompressionStream` (Chrome 80+, Safari 16.4+, Firefox 113+).
 
 ## Créditos y licencias
+- Imágenes clínicas: Wikimedia Commons (James Heilman MD, Frank Gaillard, Jpogi, Bill Rhodes, Ashish j29, A. Fieß et al., M.-J. F. Agbayani y E. Gonzales, National Cancer Institute) con licencias CC BY, CC BY-SA o dominio público, indicadas junto a cada imagen.
+- Salas: [PeerJS](https://peerjs.com) (MIT) y brokers MQTT públicos.
 - Mallas anatómicas: **BodyParts3D**, © The Database Center for Life Science, licencia [CC BY-SA 2.1 Japón](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.es). Mitsuhashi N, et al. *BodyParts3D: 3D structure database for anatomical concepts.* Nucleic Acids Res. 2009;37:D782-5. Obtenidas de [Kevin-Mattheus-Moerman/BodyParts3D](https://github.com/Kevin-Mattheus-Moerman/BodyParts3D); se simplificaron, recortaron y comprimieron. Las mallas adaptadas se comparten bajo la misma licencia.
 - [three.js](https://threejs.org) r169 y el decodificador de [meshoptimizer](https://github.com/zeux/meshoptimizer): licencia MIT.
 - Contenido educativo: no sustituye el juicio clínico, el estudio en cadáver ni la imagen diagnóstica real.
