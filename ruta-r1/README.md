@@ -12,7 +12,8 @@ La app publicable está en la carpeta [`huella/`](../huella): se sube completa a
 ## Novedades de Huella
 - **Portada** con la propuesta de valor, un caso de prueba interactivo, niveles, planes, pasos de pago y preguntas frecuentes.
 - **Dra. Luna**, la mascota (una cocker spaniel), acompaña el estudio y sube de nivel contigo: Estudiante, Interna, Rural, Residente R1, R2, R3 y Especialista.
-- **Versión gratuita**: 50 casos (5 por especialidad), Hospital virtual, salas y Atlas 3D del corazón.
+- **14 especialidades y 1323 casos**: se agregaron Cardiología, Infectología, Neumología y Gastroenterología y hepatología (80 casos cada una), priorizadas según el peso de cada área en los exámenes de residencia colombianos.
+- **Versión gratuita**: 70 casos (5 por especialidad), Hospital virtual, salas y Atlas 3D del corazón.
 - **Huella Completa**: pago con Bre-B (QR o llave) y comprobante por WhatsApp; el acceso se activa con un código firmado (ECDSA P-256) ligado al dispositivo, o con un enlace de activación.
 - **Banco fuera del HTML**: las preguntas se cargan desde `banco/` y se guardan en IndexedDB; en localStorage solo queda el progreso. Agregar preguntas no cambia el enlace.
 - Edad opcional en el registro y exámenes de varios países en el objetivo.

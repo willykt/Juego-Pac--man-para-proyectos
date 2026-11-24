@@ -1,7 +1,7 @@
 {
  "formato": 1,
- "generado": "2026-11-24T22:53:03.019Z",
- "total": 1003,
+ "generado": "2026-11-24T23:29:14.596Z",
+ "total": 1323,
  "conteo": {
   "cg": 100,
   "cp": 103,
@@ -12,7 +12,11 @@
   "tx": 100,
   "pe": 100,
   "of": 100,
-  "de": 100
+  "de": 100,
+  "ca": 80,
+  "in": 80,
+  "nm": 80,
+  "ga": 80
  },
  "embebidas": {
   "cg": 5,
@@ -24,7 +28,11 @@
   "tx": 5,
   "pe": 5,
   "of": 5,
-  "de": 5
+  "de": 5,
+  "ca": 5,
+  "in": 5,
+  "nm": 5,
+  "ga": 5
  },
  "paquetes": [
   {
@@ -76,6 +84,26 @@
    "archivo": "de.bin",
    "n": 95,
    "sha": "ea5cf8acbc823a69"
+  },
+  {
+   "archivo": "ca.bin",
+   "n": 75,
+   "sha": "ae6ecfe9ad04503c"
+  },
+  {
+   "archivo": "in.bin",
+   "n": 75,
+   "sha": "4b08e8772959968f"
+  },
+  {
+   "archivo": "nm.bin",
+   "n": 75,
+   "sha": "0d667f72fc2cfa81"
+  },
+  {
+   "archivo": "ga.bin",
+   "n": 75,
+   "sha": "570745a91d322b26"
   }
  ]
 }
