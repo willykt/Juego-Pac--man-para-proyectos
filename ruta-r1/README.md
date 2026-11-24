@@ -1,11 +1,23 @@
-# Ruta R1 · Campus médico
+# Huella · Preparación para residencias médicas (antes Ruta R1)
 
-Aplicación de estudio para el examen de residencia (R1) en un solo archivo HTML: `Ruta_R1_Campus.html`.
-Ábrelo en Chrome, Edge, Safari o Firefox recientes. Tu progreso se guarda en el navegador.
+La app publicable está en la carpeta [`huella/`](../huella): se sube completa a Netlify (arrastrando la carpeta en *Deploys*).
 
-![Atlas 3D](atlas-corazon.png)
+- `huella/index.html`: la app, con la portada, la Dra. Luna y la demo gratuita (5 casos por especialidad).
+- `huella/banco/`: el banco completo en paquetes cifrados (AES-GCM) y su índice `manifest.json`. Solo se abren con un código de acceso válido.
+- `huella/ajustes.json`: precios, cupos de fundador, llave Bre-B y WhatsApp.
+- La herramienta de administrador (códigos y carga de preguntas) **no está en este repositorio** porque contiene las llaves privadas.
 
-## Novedades
+![Atlas 3D](../huella-atlas-corazon.png)
+
+## Novedades de Huella
+- **Portada** con la propuesta de valor, un caso de prueba interactivo, niveles, planes, pasos de pago y preguntas frecuentes.
+- **Dra. Luna**, la mascota (una cocker spaniel), acompaña el estudio y sube de nivel contigo: Estudiante, Interna, Rural, Residente R1, R2, R3 y Especialista.
+- **Versión gratuita**: 50 casos (5 por especialidad), Hospital virtual, salas y Atlas 3D del corazón.
+- **Huella Completa**: pago con Bre-B (QR o llave) y comprobante por WhatsApp; el acceso se activa con un código firmado (ECDSA P-256) ligado al dispositivo, o con un enlace de activación.
+- **Banco fuera del HTML**: las preguntas se cargan desde `banco/` y se guardan en IndexedDB; en localStorage solo queda el progreso. Agregar preguntas no cambia el enlace.
+- Edad opcional en el registro y exámenes de varios países en el objetivo.
+
+## Funciones
 
 ### Atlas 3D con anatomía real
 - **331 estructuras reales** derivadas de resonancia (BodyParts3D), simplificadas y empaquetadas dentro del HTML.

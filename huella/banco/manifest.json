@@ -1,0 +1,81 @@
+{
+ "formato": 1,
+ "generado": "2026-11-24T22:53:03.019Z",
+ "total": 1003,
+ "conteo": {
+  "cg": 100,
+  "cp": 103,
+  "go": 100,
+  "mi": 100,
+  "or": 100,
+  "nc": 100,
+  "tx": 100,
+  "pe": 100,
+  "of": 100,
+  "de": 100
+ },
+ "embebidas": {
+  "cg": 5,
+  "cp": 5,
+  "go": 5,
+  "mi": 5,
+  "or": 5,
+  "nc": 5,
+  "tx": 5,
+  "pe": 5,
+  "of": 5,
+  "de": 5
+ },
+ "paquetes": [
+  {
+   "archivo": "cg.bin",
+   "n": 95,
+   "sha": "e7d1cd58a1c9da8a"
+  },
+  {
+   "archivo": "cp.bin",
+   "n": 98,
+   "sha": "50b91a8ea5c50358"
+  },
+  {
+   "archivo": "go.bin",
+   "n": 95,
+   "sha": "0a7884194c7cea5d"
+  },
+  {
+   "archivo": "mi.bin",
+   "n": 95,
+   "sha": "d91228307a14ee32"
+  },
+  {
+   "archivo": "or.bin",
+   "n": 95,
+   "sha": "e16a090cbae5e727"
+  },
+  {
+   "archivo": "nc.bin",
+   "n": 95,
+   "sha": "c6a03d0b69b594d3"
+  },
+  {
+   "archivo": "tx.bin",
+   "n": 95,
+   "sha": "f579c14fbb3da008"
+  },
+  {
+   "archivo": "pe.bin",
+   "n": 95,
+   "sha": "c6cbc834c12c88bb"
+  },
+  {
+   "archivo": "of.bin",
+   "n": 95,
+   "sha": "41cabfbb6cd1de2b"
+  },
+  {
+   "archivo": "de.bin",
+   "n": 95,
+   "sha": "ea5cf8acbc823a69"
+  }
+ ]
+}
