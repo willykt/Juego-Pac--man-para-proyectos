@@ -1,7 +1,7 @@
 {
  "formato": 1,
- "generado": "2026-11-24T23:50:48.428Z",
- "total": 1643,
+ "generado": "2026-11-25T00:12:17.562Z",
+ "total": 2045,
  "conteo": {
   "cg": 100,
   "cp": 103,
@@ -21,11 +21,11 @@
   "en": 80,
   "hm": 80,
   "nr": 80,
-  "ur": 0,
-  "re": 0,
-  "ps": 0,
-  "ep": 0,
-  "sa": 0,
+  "ur": 80,
+  "re": 80,
+  "ps": 80,
+  "ep": 80,
+  "sa": 82,
   "an": 0,
   "ul": 0,
   "ot": 0,
@@ -62,11 +62,11 @@
   "en": 5,
   "hm": 5,
   "nr": 5,
-  "ur": 0,
-  "re": 0,
-  "ps": 0,
-  "ep": 0,
-  "sa": 0,
+  "ur": 5,
+  "re": 5,
+  "ps": 5,
+  "ep": 5,
+  "sa": 5,
   "an": 0,
   "ul": 0,
   "ot": 0,
@@ -174,6 +174,31 @@
    "archivo": "nr.bin",
    "n": 75,
    "sha": "2ce23b7d6d6fba1c"
+  },
+  {
+   "archivo": "ur.bin",
+   "n": 75,
+   "sha": "b4d69df66ee1cc63"
+  },
+  {
+   "archivo": "re.bin",
+   "n": 75,
+   "sha": "77bccf5d880b1ee4"
+  },
+  {
+   "archivo": "ps.bin",
+   "n": 75,
+   "sha": "e99b8af99d53af8f"
+  },
+  {
+   "archivo": "ep.bin",
+   "n": 75,
+   "sha": "9a563b1e6f90ab15"
+  },
+  {
+   "archivo": "sa.bin",
+   "n": 77,
+   "sha": "14ab3b3d41097819"
   }
  ]
 }
